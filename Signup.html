@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="Signup.css">
+        
+    </head>
+    </head>
+    <body id="body_bg">
+        <div id="tatada">
+          
+
+        </div>
+             <div id="error"></div>
+            <form name="myform" method="post" action="customer-registration.php" onsubmit=" return validateform()">
+                <center>
+                    <h1 >Welcome to Tata Domestic Airline</h1>
+        <fieldset Id="field1">
+                <table>
+                    
+                    <div id="title1">
+                       <center> <h1><span>Registration Form</span> Details</h1></center>
+                       <h1><span>Personal</span> Details</h1>
+                    </div>
+                    <tr>
+                        <td><select id="title-m" name="title" class="title">
+                                <option name="sel" value="Selected">Title</option>
+                                <option name="male" value="mr.">Mr.</option>
+                                <option name="female" value="ms.">Ms.</option>
+                            </select></td>
+                        <tr></tr><tr></tr>
+                        <td>
+                            <input type="text" name="Firstname" class="Firstname" placeholder="First name" id="in_1" >                        
+                        </td>
+                        <td>
+                            <input type="text" name="Lastname" class="Lastname" placeholder="Lastname" id="in_1" >                        
+                        </td><tr></tr><tr></tr>
+                        <td>
+                            <input type="text" title="Birthdate" id="in_1" class="Birthdate" name="Birthdate" placeholder="Birthdate" >                   
+                        </td>
+                        <td>
+                            <input type="tel" name="phone_number" class="phone_number" placeholder="Phone number" id="in_1" >                        
+                        </td><tr></tr>
+                        <td>
+                            <select id="in_1" class="state" name="state">
+                                <option hidden id="in_2" name="sel" value="Selected">Select state</option>
+                                    <option name="Andaman and Nicobar Islands" value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                    <option name="Andhra Pradesh"  value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option name="Arunachal Pradesh" value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option name="Assam" value="Assam">Assam</option>
+                                    <option name="Bihar" value="Bihar">Bihar</option>
+                                    <option name="Chhattisgarh" value="Chhattisgarh">Chhattisgarh</option>
+                                    <option name="Daman and Diu"  value="Daman and Diu">Daman and Diu</option>
+                                    <option name="Delhi" value="Delhi">Delhi</option>
+                                    <option name="Gujarat" value="Gujarat">Gujarat</option>
+                                    <option name="Haryana" value="Haryana">Haryana</option>
+                                      <option name="Himachal Pradesh" value="Himachal Pradesh">	Himachal Pradesh</option>
+                                      <option name="Jammu & Kashmir"value="Jammu & Kashmir">Jammu & Kashmir</option>
+                                      <option name="Jharkhand" value="Jharkhand">Jharkhand</option>
+                                      <option name="Karnataka"  value="Karnataka">Karnataka</option>
+                                      <option name="Kerala" value="Kerala">Kerala</option>
+                                      <option name="Lakshadweep" value="Lakshadweep">Lakshadweep</option>
+                                      <option name="Madhya Pradesh" value="Madhya Pradesh">Madhya Pradesh</option>
+                                      <option name="Maharashtra"  value="Maharashtra">Maharashtra</option>
+                                      <option name="Meghalaya" value="Meghalaya">Meghalaya</option>
+                                      <option name="Mizoram"  value="Mizoram">Mizoram</option>
+                                      <option name="Nagaland" value="Nagaland">Nagaland</option>
+                                      <option name="Odisha"  value="Odisha">Odisha</option>
+                                      <option name="Puducherry" value="Puducherry">Puducherry</option>
+                                      <option name="Punjab" value="Punjab">Punjab</option>
+                                      <option name="Rajastdan"  value="Rajastdan">Rajastdan</option>
+                                      <option name="Sikkim" value="Sikkim">Sikkim</option>
+                                      <option name="Tamil Nadu" value="Tamil Nadu">Tamil Nadu</option>
+                                      <option name="Telangana" value="Telangana">Telangana</option>
+                                      <option name="Tripura"  value="Tripura">Tripura</option>
+                                      <option name="Uttar Pradesh" value="Uttar Pradesh">Uttar Pradesh</option>
+                                      <option name="Uttrakhand" value="Uttrakhand">Uttrakhand</option>
+                                      <option name="West Bengal" value="West Bengal">West Bengal</option>
+                            </select>
+                        </td>
+                        <tr></tr>
+                        <td>
+                            <input type="email" name="email_id" class="email_id" placeholder="E-mail" id="in_1" >                        
+                        </td>
+                        
+                        <td>
+                            <input type="text" name="Reemail_id" class="Reemail_id" placeholder="Repeat Email" id="in_1" >                        
+                        </td>
+                        <tr></tr><tr></tr>
+                        <tr></tr><tr></tr>
+                        <td colspan="2">
+                            <input type="text" name="Address" class="Address" placeholder="Address" id="in_1" >   
+                            <input type="text"  name="City"   class="City"   placeholder="City"    id="in_2" >
+                            <input type="text"  name="Pincode" class="Pincode"   placeholder="Pin-code"    id="in_2" >
+                            
+                        </td>
+                    </tr>
+                </table>
+                <div id="title3">
+                    <br>
+                   <h1><span>Protect</span> Your Account</h1>
+                </div><br>
+                <div>
+                    <h3 id="title2">To login to your account you need personal code.</h3>
+                </div>
+                <table>
+                    <tr>
+                        <td><label id="ps1">Password</label><br>
+                        <input type="password" name="password" class="password"  id="in_1" ></td>
+                        <td>
+                            <label id="ps1">Confirm Password</label><br>
+                        <input type="password" name="Repeatpassword"  class="Repeatpassword"  id="in_1" >
+                        </td>
+                    </tr>
+                  
+                </table>
+                <div id="in_3">
+                <table  >
+                    <tr>
+                        <td><input type="checkbox" name="terms" >I would like to receive newsletter and promotions</td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+                        <td>  <input type="checkbox" id="Show" onclick="myFunction()"><span id="show1">Show Password</span></td>
+                        <tr></tr>
+                        <td><input type="checkbox" name="terms1" >I agree to the Terms</td>
+                    </tr>
+                </table>
+            </div>
+                <br><br>
+                <div>
+                    <a id="Submit_1"  onclick="back()">&ensp;&ensp;Back&ensp;&ensp;</a> <a id="Submit_1"  onclick="login()">&ensp;&ensp;Login&ensp;&ensp;</a>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+                    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+             
+               
+
+                <input id="Submit_1" type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </center>
+    </form>
+    <script>
+        function back(){
+            window.history.back();
+        }
+        function login(){
+            window.open("Login.html","_parent");
+        }
+
+
+        function myFunction() {
+
+var x =document.myform.password;
+var y =document.myform.Repeatpassword;
+if (x.type == "password" && y.type == "password") {
+  x.type = "text";
+  y.type = "text";
+} else {
+  x.type = "password";
+  y.type = "password";
+}
+}
+    </script>
+    <script src="registration.js"></script>
+    </body>
+</html>
